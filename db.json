@@ -1,0 +1,430 @@
+{
+  "topSales": [
+    {
+      "newitem": "./assets/icons/main/newitem.png",
+      "topsales": "./assets/icons/main/topsales.png",
+      "img": "./assets/img/main/bestsales/gyroscooter.png",
+      "title": "Гироскутер",
+      "descr": "Гироскутер Smart Balance <br> Well 6.5 Хип-Хоп <br> (АКВАЗАЩИТА)",
+      "star": "./assets/icons/main/star.png",
+      "emptyStar": "./assets/icons/main/starEmpty.png",
+      "notice": "./assets/icons/main/notice.png",
+      "counterNotice": "(17)",
+      "oldPrice": "5400 ₽",
+      "newPrice": "3250 ₽",
+      "myPrice": 3250,
+      "discount": "./assets/icons/main/discount.png",
+      "like": "./assets/icons/main/like.png",
+      "dataLike": "like01",
+      "compare": "./assets/icons/main/compare.png",
+      "dataCompare": "compare01",
+      "oneClick": "Купить в 1 клик",
+      "cart": "./assets/icons/main/cart.png",
+      "id": 1, 
+      "illumination": true,
+      "maxSpeed": 10,
+      "enginePower": 3500,
+      "class": "subnavbar__gir"
+    },
+    {
+      "newitem": "./assets/icons/main/newitem.png",
+      "topsales": "./assets/icons/main/topsales.png",
+      "img": "./assets/img/main/bestsales/gyroscooter.png",
+      "title": "Гироскутер",
+      "descr": "Гироскутер Smart Balance <br> Well 6.5 Хип-Хоп <br> (АКВАЗАЩИТА)",
+      "star": "./assets/icons/main/star.png",
+      "emptyStar": "./assets/icons/main/starEmpty.png",
+      "notice": "./assets/icons/main/notice.png",
+      "counterNotice": "(17)",
+      "oldPrice": "5400 ₽",
+      "newPrice": "5000 ₽",
+      "myPrice": 5000,
+      "discount": "./assets/icons/main/discount.png",
+      "like": "./assets/icons/main/like.png",
+      "dataLike": "like01",
+      "compare": "./assets/icons/main/compare.png",
+      "dataCompare": "compare01",
+      "oneClick": "Купить в 1 клик",
+      "cart": "./assets/icons/main/cart.png",
+      "id": 1, 
+      "illumination": true,
+      "maxSpeed": 10,
+      "enginePower": 3500,
+      "class": "subnavbar__gir"
+    },
+    {
+      "newitem": "./assets/icons/main/newitem.png",
+      "topsales": "./assets/icons/main/topsales.png",
+      "img": "./assets/img/main/bestsales/gyroscooter.png",
+      "title": "Гироскутер",
+      "descr": "Гироскутер Smart Balance <br> Well 6.5 Хип-Хоп <br> (АКВАЗАЩИТА)",
+      "star": "./assets/icons/main/star.png",
+      "emptyStar": "./assets/icons/main/starEmpty.png",
+      "notice": "./assets/icons/main/notice.png",
+      "counterNotice": "(17)",
+      "oldPrice": "5400 ₽",
+      "newPrice": "1250 ₽",
+      "myPrice": 1250,
+      "discount": "./assets/icons/main/discount.png",
+      "like": "./assets/icons/main/like.png",
+      "dataLike": "like01",
+      "compare": "./assets/icons/main/compare.png",
+      "dataCompare": "compare01",
+      "oneClick": "Купить в 1 клик",
+      "cart": "./assets/icons/main/cart.png",
+      "id": 1, 
+      "illumination": false,
+      "maxSpeed": 10,
+      "enginePower": 2500,
+      "class": "subnavbar__gir"
+    },
+    {
+      "newitem": "./assets/icons/main/newitem.png",
+      "topsales": "./assets/icons/main/topsales.png",
+      "img": "./assets/img/main/bestsales/gyroscooter.png",
+      "title": "Гироскутер",
+      "descr": "Гироскутер Smart Balance <br> Well 6.5 Хип-Хоп <br> (АКВАЗАЩИТА)",
+      "star": "./assets/icons/main/star.png",
+      "emptyStar": "./assets/icons/main/starEmpty.png",
+      "notice": "./assets/icons/main/notice.png",
+      "counterNotice": "(17)",
+      "oldPrice": "5400 ₽",
+      "newPrice": "500 ₽",
+      "myPrice": 500,
+      "discount": "./assets/icons/main/discount.png",
+      "like": "./assets/icons/main/like.png",
+      "dataLike": "like02",
+      "compare": "./assets/icons/main/compare.png",
+      "dataCompare": "compare02",
+      "oneClick": "Купить в 1 клик",
+      "cart": "./assets/icons/main/cart.png",
+      "id": 2,
+      "illumination": false,
+      "maxSpeed": 15,
+      "enginePower": 3000,
+      "class": "subnavbar__gir"
+    },
+    {
+      "newitem": "./assets/icons/main/newitem.png",
+      "topsales": "./assets/icons/main/topsales.png",
+      "img": "./assets/img/main/bestsales/gyroscooter.png",
+      "title": "Сигвеи",
+      "descr": "Гироскутер Smart Balance <br> Well 6.5 Хип-Хоп <br> (АКВАЗАЩИТА)",
+      "star": "./assets/icons/main/star.png",
+      "emptyStar": "./assets/icons/main/starEmpty.png",
+      "notice": "./assets/icons/main/notice.png",
+      "counterNotice": "(17)",
+      "oldPrice": "5400 ₽",
+      "newPrice": "4350 ₽",
+      "myPrice": 4350,
+      "discount": "./assets/icons/main/discount.png",
+      "like": "./assets/icons/main/like.png",
+      "dataLike": "like03",
+      "compare": "./assets/icons/main/compare.png",
+      "dataCompare": "compare03",
+      "oneClick": "Купить в 1 клик",
+      "cart": "./assets/icons/main/cart.png",
+      "id": 3,
+      "illumination": true,
+      "maxSpeed": 10,
+      "enginePower": 2850,
+      "class": "subnavbar__ele"
+    },
+    {
+      "newitem": "./assets/icons/main/newitem.png",
+      "topsales": "./assets/icons/main/topsales.png",
+      "img": "./assets/img/main/bestsales/gyroscooter.png",
+      "title": "Сигвеи",
+      "descr": "Гироскутер Smart Balance <br> Well 6.5 Хип-Хоп <br> (АКВАЗАЩИТА)",
+      "star": "./assets/icons/main/star.png",
+      "emptyStar": "./assets/icons/main/starEmpty.png",
+      "notice": "./assets/icons/main/notice.png",
+      "counterNotice": "(17)",
+      "oldPrice": "5400 ₽",
+      "newPrice": "2300 ₽",
+      "myPrice": 2300,
+      "discount": "./assets/icons/main/discount.png",
+      "like": "./assets/icons/main/like.png",
+      "dataLike": "like04",
+      "compare": "./assets/icons/main/compare.png",
+      "dataCompare": "compare04",
+      "oneClick": "Купить в 1 клик",
+      "cart": "./assets/icons/main/cart.png",
+      "id": 4,
+      "illumination": true,
+      "maxSpeed": 5,
+      "enginePower": 3200,
+      "class": "subnavbar__ele"
+    }
+  ],
+  "stocks": [
+    {
+      "id": 1,
+      "src": "./assets/img/stocks/promo1.png"
+    },
+    {
+      "id": 2,
+      "src": "./assets/img/stocks/promo2.png"
+    },
+    {
+      "id": 3,
+      "src": "./assets/img/stocks/promo3.png"
+    },
+    {
+      "id": 4,
+      "src": "./assets/img/stocks/promo4.png"
+    },
+    {
+      "id": 5,
+      "src": "./assets/img/stocks/promo1.png"
+    },
+    {
+      "id": 6,
+      "src": "./assets/img/stocks/promo2.png"
+    },
+    {
+      "id": 7,
+      "src": "./assets/img/stocks/promo3.png"
+    },
+    {
+      "id": 8,
+      "src": "./assets/img/stocks/promo4.png"
+    },
+    {
+      "id": 9,
+      "src": "./assets/img/stocks/promo1.png"
+    },
+    {
+      "id": 10,
+      "src": "./assets/img/stocks/promo2.png"
+    },
+    {
+      "id": 11,
+      "src": "./assets/img/stocks/promo3.png"
+    },
+    {
+      "id": 12,
+      "src": "./assets/img/stocks/promo4.png"
+    },
+    {
+      "id": 13,
+      "src": "./assets/img/stocks/promo1.png"
+    },
+    {
+      "id": 14,
+      "src": "./assets/img/stocks/promo2.png"
+    },
+    {
+      "id": 15,
+      "src": "./assets/img/stocks/promo3.png"
+    },
+    {
+      "id": 16,
+      "src": "./assets/img/stocks/promo4.png"
+    },
+    {
+      "id": 17,
+      "src": "./assets/img/stocks/promo1.png"
+    },
+    {
+      "id": 18,
+      "src": "./assets/img/stocks/promo2.png"
+    },
+    {
+      "id": 19,
+      "src": "./assets/img/stocks/promo3.png"
+    },
+    {
+      "id": 20,
+      "src": "./assets/img/stocks/promo4.png"
+    },
+    {
+      "id": 21,
+      "src": "./assets/img/stocks/promo1.png"
+    },
+    {
+      "id": 22,
+      "src": "./assets/img/stocks/promo2.png"
+    },
+    {
+      "id": 23,
+      "src": "./assets/img/stocks/promo3.png"
+    },
+    {
+      "id": 24,
+      "src": "./assets/img/stocks/promo4.png"
+    },
+    {
+      "id": 25,
+      "src": "./assets/img/stocks/promo1.png"
+    },
+    {
+      "id": 26,
+      "src": "./assets/img/stocks/promo2.png"
+    },
+    {
+      "id": 27,
+      "src": "./assets/img/stocks/promo3.png"
+    },
+    {
+      "id": 28,
+      "src": "./assets/img/stocks/promo4.png"
+    },
+    {
+      "id": 29,
+      "src": "./assets/img/stocks/promo1.png"
+    },
+    {
+      "id": 30,
+      "src": "./assets/img/stocks/promo2.png"
+    },
+    {
+      "id": 31,
+      "src": "./assets/img/stocks/promo3.png"
+    },
+    {
+      "id": 32,
+      "src": "./assets/img/stocks/promo4.png"
+    },
+    {
+      "id": 33,
+      "src": "./assets/img/stocks/promo1.png"
+    },
+    {
+      "id": 34,
+      "src": "./assets/img/stocks/promo2.png"
+    },
+    {
+      "id": 35,
+      "src": "./assets/img/stocks/promo3.png"
+    },
+    {
+      "id": 36,
+      "src": "./assets/img/stocks/promo4.png"
+    }
+  ],
+  "stocksItem": [
+    {
+      "id": 1,
+      "title": "Скидка в ДЕНЬ РОЖДЕНИЯ (неделя до/после)",
+      "descr": "Приобретение Электротранспорта, Smart-Техники и мелкой бытовой техники влечет за собой большие денежные траты. Сеть магазинов Смарт-маркт предлагает покупателям широкий ассортимент товаров по Самым доступным ценам в России. Чтобы шоппинг стал наиболее выгодным, руководство компании разработало уникальную программу лояльности для Именинников. <br> <span>Условия Акции:</span> <br> <p>1. Скидку можно получить при</p> <p> <br>2. Скидка действует за неделю до дня рождения включительно и неделю после дня рождения включительно</p> <br> <p>3. Скидка составляет 10% от стоимости основного товара, н оне должна превышать номинал в 1000 рублей.</p> <br><p>4. Скидки не суммируются т.к. мы разрабатываем для Вас наилучшие условия для покупки Техники</p><br> <p>5. Если срок Менее 7 дней до Дня Рождения или более 7 дней после Дня Рождения скидка оговаривается в индивидуальном порядке и может достигать Максимальных значений</p>",
+      "src": "./assets/img/stocks/birthday.png",
+      "src768": "./assets/img/stocks/birthday768.png",
+      "src320": "./assets/img/stocks/birthday320.png"
+    },
+    {
+      "id": 2,
+      "title": "Скидка в ДЕНЬ РОЖДЕНИЯ",
+      "descr": "Приобретение Электротранспорта, Smart-Техники и мелкой бытовой техники влечет за собой большие денежные траты. Сеть магазинов Смарт-маркт предлагает покупателям широкий ассортимент товаров по Самым доступным ценам в России. Чтобы шоппинг стал наиболее выгодным, руководство компании разработало уникальную программу лояльности для Именинников. <br> <span>Условия Акции:</span> <br> <p>1. Скидку можно получить при</p> <p> <br>2. Скидка действует за неделю до дня рождения включительно и неделю после дня рождения включительно</p> <br> <p>3. Скидка составляет 10% от стоимости основного товара, н оне должна превышать номинал в 1000 рублей.</p> <br><p>4. Скидки не суммируются т.к. мы разрабатываем для Вас наилучшие условия для покупки Техники</p><br> <p>5. Если срок Менее 7 дней до Дня Рождения или более 7 дней после Дня Рождения скидка оговаривается в индивидуальном порядке и может достигать Максимальных значений</p>",
+      "src": "./assets/img/stocks/birthday.png",
+      "src768": "./assets/img/stocks/birthday768.png",
+      "src320": "./assets/img/stocks/birthday320.png"
+    }
+  ],
+  "itemId": [
+    {
+      "idItem": "2",
+      "id": 1
+    }
+  ],
+  "formData": [],
+  "installmentForm": [],
+  "vacancy": [
+    {
+      "nameVacancy": "Менеджер по продажам",
+      "generalTitle": "Мы ищем тех, кто:",
+      "generalDescr": [
+        "Активен! Активен и еще раз активен;",
+        "Действительно хочет работать и постоянно развиваться;",
+        "Понимает, что уровень продаж зависит от него, а не от настроения, умственного развития и других характеристик клиента;",
+        "Коммуникабелен и клиентоориентирован;",
+        "Предпочитает тратить энергию на обучение, а не на оправдание и споры;",
+        "Хочет заработок бизнес-класса, а не на мороженое в парке!"
+      ],
+      "requirementsTitle": "Требования",
+      "requirements": [
+        "Опыт работы в любом сегменте e-commerce;",
+        "Вежливость и терпеливость в общении с клиентами;",
+        "Готовность к работе в ненормированном графике."
+      ],
+      "conditionsTitle": "Условия",
+      "conditions": [
+        "Продажа классных хайповых товаров;",
+        "Работа со входящим трафиком как по телефону так и в магазине;",
+        "Специальный прайс на все товары для себя и самых близких;",
+        "Зарплата без лимита. Верхний предел дохода ограничивается только Вашей ленью!;",
+        "Официальное трудоустройство по ТК РФ."
+      ]
+    },
+    {
+      "nameVacancy": "Старший продавец",
+      "generalTitle": "Мы ищем тех, кто:",
+      "generalDescr": [
+        "Активен! Активен и еще раз активен;",
+        "Действительно хочет работать и постоянно развиваться;",
+        "Понимает, что уровень продаж зависит от него, а не от настроения, умственного развития и других характеристик клиента;",
+        "Коммуникабелен и клиентоориентирован;",
+        "Предпочитает тратить энергию на обучение, а не на оправдание и споры;",
+        "Хочет заработок бизнес-класса, а не на мороженое в парке!"
+      ],
+      "requirementsTitle": "Требования",
+      "requirements": [
+        "Опыт работы в любом сегменте e-commerce;",
+        "Вежливость и терпеливость в общении с клиентами;",
+        "Готовность к работе в ненормированном графике."
+      ],
+      "conditionsTitle": "Условия",
+      "conditions": [
+        "Продажа классных хайповых товаров;",
+        "Работа со входящим трафиком как по телефону так и в магазине;",
+        "Специальный прайс на все товары для себя и самых близких;",
+        "Зарплата без лимита. Верхний предел дохода ограничивается только Вашей ленью!;",
+        "Официальное трудоустройство по ТК РФ."
+      ]
+    },
+    {
+      "nameVacancy": "Директор магазина",
+      "generalTitle": "Мы ищем тех, кто:",
+      "generalDescr": [
+        "Активен! Активен и еще раз активен;",
+        "Действительно хочет работать и постоянно развиваться;",
+        "Понимает, что уровень продаж зависит от него, а не от настроения, умственного развития и других характеристик клиента;",
+        "Коммуникабелен и клиентоориентирован;"
+      ],
+      "requirementsTitle": "Требования",
+      "requirements": [
+        "Опыт работы в любом сегменте e-commerce;",
+        "Вежливость и терпеливость в общении с клиентами;",
+        "Готовность к работе в ненормированном графике."
+      ],
+      "conditionsTitle": "Условия",
+      "conditions": [
+        "Продажа классных хайповых товаров;",
+        "Работа со входящим трафиком как по телефону так и в магазине;",
+        "Специальный прайс на все товары для себя и самых близких;",
+        "Официальное трудоустройство по ТК РФ."
+      ]
+    },
+    {
+      "nameVacancy": "Кладовщик",
+      "generalTitle": "Мы ищем тех, кто:",
+      "generalDescr": [
+        "Действительно хочет работать и постоянно развиваться;",
+        "Понимает, что уровень продаж зависит от него, а не от настроения, умственного развития и других характеристик клиента;",
+        "Коммуникабелен и клиентоориентирован;"
+      ],
+      "requirementsTitle": "Требования",
+      "requirements": [
+        "Опыт работы в любом сегменте e-commerce;",
+        "Вежливость и терпеливость в общении с клиентами;",
+        "Готовность к работе в ненормированном графике."
+      ],
+      "conditionsTitle": "Условия",
+      "conditions": [
+        "Продажа классных хайповых товаров;",
+        "Специальный прайс на все товары для себя и самых близких;",
+        "Официальное трудоустройство по ТК РФ."
+      ]
+    }
+  ]
+}

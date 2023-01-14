@@ -1,0 +1,253 @@
+.subnavbar {
+    z-index: 10;
+    background-color: #0E1821;
+    &__wrapper {
+        width: 1336px;
+        height: 60px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        background-color: #0E1821;
+        
+    }
+    &__menu {
+        display: flex;
+        margin-bottom: 0;
+        align-items: start;
+        margin-top: revert;
+        padding-left: 0px;
+        li {
+            margin-right: 40px;
+            cursor: pointer;
+            a {
+                text-decoration: none;
+                color: #ffffff;
+            }
+        }
+    }
+    &__catalog {
+        width: 310px;
+        margin-right: 24px;
+    }
+    
+    &__title {
+        position: relative;
+        margin-left: 20px;
+        position: relative;
+        margin-bottom: 25px;
+        margin-left: 62px;
+        cursor: pointer;
+        &::before {
+            content: url('assets/icons/subnavbar/subnavbar-menu-icon.png');
+            width: 32px;
+            height: 32px;
+            position: absolute;
+            left: -35px;
+            top: -4px;
+        }
+    }
+    &__gir {
+        position: relative;
+        &::before {
+            content: url('assets/icons/subnavbar/gir.png');
+            width: 32px;
+            height: 32px;
+            position: absolute;
+            left: 18px;
+            top: 8px;
+        }
+    }
+    &__ele {
+        position: relative;
+        &::before {
+            content: url('assets/icons/subnavbar/ele.png');
+            width: 32px;
+            height: 32px;
+            position: absolute;
+            left: 18px;
+            top: 8px;
+        }
+    }
+    &__mono {
+        position: relative;
+        &::before {
+            content: url('assets/icons/subnavbar/mono.png');
+            width: 32px;
+            height: 32px;
+            position: absolute;
+            left: 18px;
+            top: 8px;
+        }
+    }
+    &__sigway {
+        position: relative;
+        &::before {
+            content: url('assets/icons/subnavbar/sig.png');
+            width: 32px;
+            height: 32px;
+            position: absolute;
+            left: 18px;
+            top: 8px;
+        }
+    }
+    &__scooter {
+        position: relative;
+        &::before {
+            content: url('assets/icons/subnavbar/scooter.png');
+            width: 32px;
+            height: 32px;
+            position: absolute;
+            left: 18px;
+            top: 8px;
+        }
+    }
+    &__bicycle {
+        position: relative;
+        &::before {
+            content: url('assets/icons/subnavbar/bicycle.png');
+            width: 32px;
+            height: 32px;
+            position: absolute;
+            left: 18px;
+            top: 8px;
+        }
+    }
+    &__scate {
+        position: relative;
+        &::before {
+            content: url('assets/icons/subnavbar/scate.png');
+            width: 32px;
+            height: 32px;
+            position: absolute;
+            left: 18px;
+            top: 8px;
+        }
+    }
+    &__avto {
+        position: relative;
+        &::before {
+            content: url('assets/icons/subnavbar/avto.png');
+            width: 32px;
+            height: 32px;
+            position: absolute;
+            left: 18px;
+            top: 8px;
+        }
+    }
+    &__accessories {
+        position: relative;
+        &::before {
+            content: url('assets/icons/subnavbar/accessories.png');
+            width: 32px;
+            height: 32px;
+            position: absolute;
+            left: 18px;
+            top: 8px;
+        }
+    }
+    &__smartToy {
+        position: relative;
+        &::before {
+            content: url('assets/icons/subnavbar/smartToy.png');
+            width: 32px;
+            height: 32px;
+            position: absolute;
+            left: 18px;
+            top: 8px;
+        }
+    }
+    &__smartWatch {
+        position: relative;
+        &::before {
+            content: url('assets/icons/subnavbar/smartWatch.png');
+            width: 32px;
+            height: 32px;
+            position: absolute;
+            left: 18px;
+            top: 8px;
+        }
+    }
+    &__catalogItem {
+        z-index: 10www;
+        width: 310px;
+        transform: scaleY(0);
+        opacity: 0;
+        transition: .3s all;
+        padding-left: 0px;
+        li {
+            width: 310px;
+            background-color: #e9edf0;
+            color: black;
+            height: 48px;
+            padding-left: 62px;
+            padding-top: 12px;
+            &:hover {
+                cursor: pointer;
+                background-color: #aeb3b7;
+            }
+        }
+    }
+    &__opt {
+        display: flex;
+    }
+ 
+}
+
+.subnavbar__catalogItem_open {
+    transform: scaleY(1);
+    opacity: 1;
+    z-index: 100;
+    position: relative;
+}
+
+.subnavbar__title {
+    
+    color:white;
+}
+
+.subnavbar__menu {
+
+    li {
+        list-style: none;
+        color: black;
+        font-size: 16px;
+    }
+}
+
+
+
+.carousel {
+    z-index: -5;
+    margin-bottom: 40px;
+    &__wrapper {
+        display: flex;
+        justify-content: end;
+        margin: 20px auto;
+        width: 1336px;
+        .slide {
+            width: 970px;
+            height: 524px;
+        }    
+    }   
+}
+
+.carousel-indicators {
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    [data-bs-slide-to] {
+        width: 185px;
+    }
+}
+.subnavbar768 {
+    display: none;
+}
+.catalog {
+    display: none;
+}
+.more {
+    display: none;
+}
+.search {
+    display: none;
+}

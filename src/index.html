@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>SmartProject</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar__wrapper">
+            <a rel="stylesheet" href="#">
+                <img title="icon" src="assets/icons/navbar/logo.png" class="navbar__icon"></img>
+            </a>  
+            <a class="navbar__tel1" href="tel:+78126605054">+7 (812) 660-50-54</a>
+            <a class="navbar__tel2" href="tel:+79581119503">+7 (958) 111-95-03</a>
+            <div class="navbar__schedule">Пн-вс: с 10:00 до 21:00</div>
+            <div class="navbar__input">
+                <img class="navbar__search" src="assets/icons/navbar/search-icon.png" alt="search-icon">
+                <form action="">
+                    <input type="text" placeholder="Поиск">
+                </form>
+            </div>
+            <div class="navbar__exit"></div>
+            <img src="assets/icons/navbar/eye=empty.png" alt="search-eye" class="navbar__eye"></img>
+            <img src="assets/icons/navbar/like=like.png" alt="like" class="navbar__like"></img>
+            <img src="assets/icons/navbar/compare=compare.png" alt="compare" class="navbar__compare"></img>
+            <img src="assets/icons/navbar/cart=empty.png" alt="cart" class="navbar__cart"></img>
+            <div class="navbar__btnEnter">Войти</div>
+        </div>    
+    </div>
+    <div class="subnavbar">
+        <div class="subnavbar__wrapper">
+            <ul class="subnavbar__menu">
+                <li class="subnavbar__catalog">
+                    <div class="subnavbar__title">Каталог товаров</div>
+                    <ul class="subnavbar__catalogItem">
+                        <li class="subnavbar__gir">Гироскутеры</li>
+                        <li class="subnavbar__ele">Электросамокаты</li>
+                        <li class="subnavbar__mono">Моноколеса</li>
+                        <li class="subnavbar__sigway">Сигвеи и мини-сигвеи</li>
+                        <li class="subnavbar__scooter">Электроскутеры</li>
+                        <li class="subnavbar__bicycle">Электровелосипеды</li>
+                        <li class="subnavbar__scate">Электроскейты</li>
+                        <li class="subnavbar__avto">Электромобили</li>
+                        <li class="subnavbar__accessories">Аксессуары</li>
+                        <li class="subnavbar__smartToy">Умные игрушки</li>
+                        <li class="subnavbar__smartWatch">Smart Watch</li>
+                    </ul>
+                </li>
+                <li class="subnavbar__about"><a href="aboutCompany.html">О компании</a></li>
+                <li class="subnavbar__stock"><a href="stocks.html">Акции</a></li>
+                <li class="subnavbar__installmentPlan">Рассрочка 0|0|18</li>
+                <li class="subnavbar__service">Сервис и гарантия</li>
+                <li class="subnavbar__opt">Опт/дропшиппинг</li>
+                <li class="subnavbar__contacts">Контакты</li>
+            </ul>
+        </div>
+    </div>
+    <div class="carousel">
+        <div class="carousel__wrapper">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/img/subnavbar/slider01.png" class="d-block w-100" alt="slide01">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/subnavbar/slider02.png" class="d-block w-100" alt="slide02">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/subnavbar/slider03.png" class="d-block w-100" alt="slide03">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/subnavbar/slider04.png" class="d-block w-100" alt="slide04">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/subnavbar/slider05.png" class="d-block w-100" alt="slide05">
+                  </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+    <div class="main">
+        <div class="desktop__wrapper">
+            <div class="desltop__main">
+                <div class="bestsalesBlock">
+                    <div class="bestsales">
+                        <div class="bestsales__title">Хиты продаж</div>
+                        <div data-id = "all" class="bestsales__all">Все товары</div>
+                    </div>
+                    <div class="bestsalesCard">
+                        <!-- Карточки грузятся из базы данных -->
+                    </div>
+                </div>
+                <div class="newProduct">
+                    <div class="bestsales">
+                        <div class="bestsales__title">Новинки</div>
+                        <div data-id = "new" class="bestsales__all">Все товары</div>
+                    </div>
+                    <div class="bestsalesCard">
+                        <!-- Карточки грузятся из базы данных -->
+
+                    </div>
+                </div>
+                <div class="advertisingBlockOne">
+                    <div class="advertisingBlockOne__left">
+                        <div class="advertisingBlockOne__title">Скидки до 30% на сигвеи</div>
+                        <img class="advertisingBlockOne__img" src="./assets/img/main/advertising/scooter.png" alt="scooter">
+                    </div>
+                    <div class="advertisingBlockOne__right">
+                        <div class="advertisingBlockOne__title">Неделя смарт часов</div>
+                        <img class="advertisingBlockOne__img" src="./assets/img/main/advertising/watch.png" alt="watch">
+                    </div>
+                </div>
+
+                <div class="sygway">
+                    <div class="bestsales">
+                        <div class="bestsales__title">Сигвеи</div>
+                        <div data-id = "new" class="bestsales__all">Все товары</div>
+                    </div>
+                    <div class="bestsalesCard">
+                        <!-- Карточки грузятся из базы данных -->
+
+                    </div>
+                </div>
+                <div class="monowheel">
+                    <div class="bestsales">
+                        <div class="bestsales__title">Моноколеса</div>
+                        <div data-id = "new" class="bestsales__all">Все товары</div>
+                    </div>
+                    <div class="bestsalesCard">
+                        <!-- Карточки грузятся из базы данных -->
+
+                    </div>
+                </div>
+                <div class="advertisingBlockOne">
+                    <div class="advertisingBlockOne__left">
+                        <div class="advertisingBlockOne__title percent">Распродажа до — 50%</div>
+                        <img class="advertisingBlockOne__img percentImg" src="./assets/img/main/advertising/percent.png" alt="percent">
+                    </div>
+                    <div class="advertisingBlockOne__right">
+                        <div class="advertisingBlockOne__premium">Smart Balance Premium по специальной цене</div>
+                        <img class="advertisingBlockOne__img premiumImg" src="./assets/img/main/advertising/scooter01.png" alt="scooter01">
+                    </div>
+                </div>
+                <div class="electrobycicle">
+                    <div class="bestsales">
+                        <div class="bestsales__title">Электровелосипеды</div>
+                        <div data-id = "new" class="bestsales__all">Все товары</div>
+                    </div>
+                    <div class="bestsalesCard">
+                        <!-- Карточки грузятся из базы данных -->
+
+                    </div>
+                </div>
+                <div class="newsBlock">
+                    <div class="newsBlock__header">
+                        <div class="newsBlock__title">Новости</div>
+                        <div data-id = "newsBlock" class="newsBlock__all">Читать все</div>
+                    </div>
+                
+                <div class="newsBlock__informations">
+                    <div class="newsBlock__left">
+                        <div class="newsBlock__title">Открытие нового магазина</div>
+                        <div class="newsBlock__descr">
+                            Разнообразный и богатый опыт говорит нам, что консультация с широким активом требует от нас анализа анализа существующих паттернов поведения
+                        </div>
+                        <div class="newsBlock__footer">
+                            <div class="newsBlock__moreDetailed">Подробнее</div>
+                            <div class="newsBlock__date">05 июня 2021</div>
+                        </div>
+                    </div>
+                    <div class="infoBlock__right">
+                        <div class="infoBlock__title">Работа в праздничные дни</div>
+                        <div class="infoBlock__descr">
+                            Принимая во внимание показатели успешности, социально-экономическое развитие играет определяющее значение для вывода текущих активов
+                        </div>
+                        <div class="infoBlock__footer">
+                            <div class="infoBlock__moreDetailed">Подробнее</div>
+                            <div class="infoBlock__date">05 июня 2021</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__topBlock">
+                <div class="footer__columnOne">
+                    <img title="icon" src="assets/icons/navbar/logo.png" class="navbar__icon"></img>
+                    <a class="navbar__tel1 medium" href="tel:+78126605054">+7 (812) 660-50-54</a>
+                    <a class="navbar__tel2 medium" href="tel:+79581119503">+7 (958) 111-95-03</a>
+                    <div class="navbar__schedule medium">Пн-вс: с 10:00 до 21:00</div>
+                    <div class="footer__adress">
+                        Проспект Стачек 67 к.5
+                        Лиговский проспект 205
+                        Гражданский проспект, 116 к.5
+                    </div>
+                    <div class="footer__medium">
+                        <div class="footer__store">О магазине</div>
+                        <div class="footer__rewievs">Отзывы</div>
+                        <div class="footer__our">Наши преимущества</div>
+                        <div class="footer__history">История компании</div>
+                        <div class="footer__cooperation">Сотрудничество</div>
+                        <div class="footer__partners">Партнёрская программа</div>
+                        <div class="footer__vacancy">Вакансии</div>
+                    </div>
+                </div>
+                <div class="footer__columnTwo">
+                    <div class="footer__client">Для клиента</div>
+                    <div class="footer__buy">Как купить</div>
+                    <div class="footer__delivery">Доставка и оплата</div>
+                    <div class="footer__credit">Кредит</div>
+                    <div class="footer__politics">Политика конфиденциальности</div>
+                    <div class="footer__faq">Вопросы и ответы (F.A.Q.)</div>
+                    <div class="footer__service">Сервис и гарантия</div>
+                    <div class="footer__medium">
+                        <div class="footer__cooperationTitle">Сотрудничество</div>
+                        <div class="footer__opt">Оптом</div>
+                        <div class="footer__dropshipping">Дропшиппинг</div>
+                    </div>
+                </div>
+                <div class="footer__columnThree">
+                    <div class="footer__store">О магазине</div>
+                    <div class="footer__rewievs">Отзывы</div>
+                    <div class="footer__our">Наши преимущества</div>
+                    <div class="footer__history">История компании</div>
+                    <div class="footer__cooperation">Сотрудничество</div>
+                    <div class="footer__partners">Партнёрская программа</div>
+                    <div class="footer__vacancy">Вакансии</div>
+                </div>
+                <div class="footer__columnFour">
+                    <div class="footer__cooperationTitle">Сотрудничество</div>
+                    <div class="footer__opt">Оптом</div>
+                    <div class="footer__dropshipping">Дропшиппинг</div>
+                </div>
+            </div>
+            <div class="footer__bottomBlock">
+                <div class="footer__rights">
+                    <div>SmartТехника © 2021 Все права защищены</div>
+                    <div class="footer__medium">Разработка: websl.ru</div>
+                </div>
+                <div class="footer__socialNetworks">
+                    <img class="footer__twitter" src="./assets/icons/footer/twitter.png" alt="twitter">
+                    <img class="footer__facebook" src="./assets/icons/footer/facebook.png" alt="facebook">
+                    <div class="footer__vkBlock">
+                        <img class="footer__vk" src="./assets/icons/footer/vk.png" alt="vk">
+                    </div>
+                    <div class="footer__instaBlock">
+                        <img class="footer__insta" src="./assets/icons/footer/incta.png" alt="instagram">
+                    </div>
+                </div>
+                <div class="footer__produce">Разработка: websl.ru</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <script src="./js/jquery.validate.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>

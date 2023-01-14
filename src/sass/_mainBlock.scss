@@ -1,0 +1,314 @@
+.desktop {
+    &__wrapper {
+        width: 1336px;
+        margin: 0 auto;
+        .bestsales {
+            margin-bottom: 40px;
+            display: flex;
+            justify-content: start;
+            align-items: baseline;
+            &__title {
+                font-weight: bold;
+                font-size: 36px;
+                margin-right: 30px;
+            }
+            &__all {
+                position: relative;
+                font-weight: normal;
+                font-size: 16px;
+                cursor: pointer;
+                &::after {
+                    content: url('../assets/icons/main/arrow.png');
+                    position: relative;
+                    top: 1px;
+                    right: -5px;
+                }
+            }
+        }
+        .bestsalesCard {
+            display: grid;
+            margin-bottom: 80px;
+            grid-template-columns: repeat(4, 326px);
+            grid-template-rows: 596px;
+            &__item {
+                position: relative;
+                border: solid gray .1px;
+                padding: 10px 20px 20px 20px;
+                display: flex;
+                flex-direction: column;
+                .blockinfo {
+                    padding: 10px 20px 0 0;
+                    position: absolute;
+                    display: flex;
+                    flex-direction: column;
+                    top: 0px;
+                    right: 0px;
+                    align-items: end;
+                    &__newitem {
+                        width: 98px;
+                        height: 31px;
+                        margin-bottom: 10px;
+                    }
+
+                }
+                &__img {
+                    margin-bottom: 10px;
+                } 
+            }
+            &__titile {
+                font-weight: normal;
+                font-size: 16px;
+                margin-bottom: 10px;
+            }
+            &__descr {
+                font-size: 20px;
+                font-weight: normal;
+                margin-bottom: 20px;
+            }
+            &__star {
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                margin-bottom: 20px;
+                .notice {
+                    margin-left: 13px;
+                    cursor: pointer;
+                    margin-right: 8px;
+                }
+            }
+            &__price {
+                display: flex;
+                justify-content: space-between;
+                align-items: end;
+                margin-bottom: 20px;
+                .price {
+                    width: 117px;
+                    height: 81px;
+                    display: flex;
+                    flex-direction: column;
+                    &__old {
+                        font-weight: normal;
+                        font-size: 16px;
+                        color: gray;
+                        text-decoration: line-through;
+                    }
+                    &__new {
+                        font-weight: bold;
+                        font-size: 24px;
+                    }
+                }
+            }
+            &__btn {
+                display: flex;
+                justify-content: space-between;
+                .oneClick {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 228px;
+                    height: 48px;
+                    border: solid #4878A6 .3px;
+                    border-radius: 2px;
+                    cursor: pointer;
+                }
+                .cart {
+                    cursor: pointer;
+                }
+            }
+
+        }
+    }
+
+}
+
+.bestsalesBlock {
+    margin-bottom: 80px;
+}
+
+.newProduct {
+    margin-bottom: 80px;
+}
+
+.advertisingBlockOne {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1300px;
+    height: 180px;
+    margin-bottom: 80px;
+    &__left {
+        width: 640px;
+        height: 180px;
+        background-color: #EDF2F6;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        border-radius: 5px;
+        img {
+            width: 179px;
+            height: 172px;
+        }
+        .percentImg {
+            width: 144px;
+            height: 124px;
+            margin: auto 0;
+        }
+        .advertisingBlockOne__title {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 234px;
+            font-weight: bold;
+            font-size: 28px;
+            
+        }
+
+    }
+    &__right {
+        width: 640px;
+        height: 180px;
+        background-color: #EDF2F6;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        border-radius: 5px;
+        img {
+            width: 179px;
+            height: 172px;
+        }
+        .advertisingBlockOne__premium {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 333px;
+            font-weight: bold;
+            font-size: 28px;
+
+        }
+        .advertisingBlockOne__title {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 234px;
+            font-weight: bold;
+            font-size: 28px;
+            
+        }
+        .premiumImg {
+            width: 241px;
+            height: 161px;
+        }
+
+    }
+   
+}
+
+.newsBlock {
+    width: 1336px;
+    &__header {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-bottom: 36px;
+        .newsBlock__title {
+            font-size: 36px;
+            font-weight: bold;
+            margin-right: 29px;
+        }
+        .newsBlock__all {
+            cursor: pointer;
+            padding-top: 14px;
+            &::after {
+                content: url('../assets/icons/main/arrow.png');
+                position: relative;
+                top: 1px;
+                right: -5px;
+            }
+        }
+    }
+    &__informations {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 1300px;
+        height: 210px;
+        margin-bottom: 80px;
+    .newsBlock__left {
+        width: 640px;
+        height: 210px;
+        background-color: #EDF2F6;
+        border-radius: 5px;
+        padding: 30px 50px 30px 50px;
+        .newsBlock__title {
+            font-weight: bold;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        .newsBlock__descr {
+            font-size: 16px;
+            font-weight: normal;
+            margin-bottom: 10px;
+            
+        }
+        .newsBlock__footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .newsBlock__moreDetailed {
+                font-weight: normal;
+                font-size: 16px;
+                color: #2A5275;
+                cursor: pointer;
+                &::after {
+                    content: url('../assets/icons/main/arrow.png');
+                    position: relative;
+                    top: 1px;
+                    right: -5px;
+                }
+
+            }
+        }
+    }
+    .infoBlock__right {
+        width: 640px;
+        height: 210px;
+        background-color: #EDF2F6;
+        border-radius: 5px;
+        padding: 30px 50px 30px 50px;
+        .infoBlock__title {
+            font-weight: bold;
+            font-size: 28px;
+            color: #2A5275;
+            margin-bottom: 10px;
+        }
+        .infoBlock__descr {
+            font-size: 16px;
+            font-weight: normal;
+            margin-bottom: 10px;
+            
+        }
+        .infoBlock__footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .infoBlock__moreDetailed {
+                font-weight: normal;
+                font-size: 16px;
+                color: #2A5275;
+                cursor: pointer;
+                &::after {
+                    content: url('../assets/icons/main/arrow.png');
+                    position: relative;
+                    top: 1px;
+                    right: -5px;
+                }
+
+            }
+        }
+    }
+
+    }
+    
+    
+}
+

@@ -1,0 +1,44 @@
+@import 'bootstrap-reboot.min';
+
+
+
+// @import 'variables';
+// @import 'mixins';
+// @import 'slick';
+// @import 'slick-theme';
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap');
+
+* {
+    font-family: 'Exo 2', sans-serif;
+
+}
+
+.container {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+body {
+    position: relative;
+}
+
+@import 'navbar';
+@import 'subnavbar';
+@import 'mainBlock';
+@import 'aboutCompany';
+@import 'stocks';
+@import 'footer';
+@import 'contacts';
+@import 'service';
+@import 'installment';
+@import 'opt';
+@import 'drop';
+@import 'vacancy';
+@import 'accordion';
+@import 'catalog';
+
+
+
+@import 'media';
+
+

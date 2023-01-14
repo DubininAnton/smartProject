@@ -1,0 +1,218 @@
+.contacts {
+    width: 1336px;
+    &__table {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        
+    }
+    &__adress {
+        width: 33%;
+        height: 512px;
+        background-color: #EDF2F6;
+        border-radius: 10px;
+    }
+    &__cart {
+        width: 66%;
+        height: 512px;
+        font-size: 16px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .adress {
+        z-index: 0;
+        line-height: .7;
+        height: 80px;
+        cursor: pointer;
+        padding: 15px 30px 15px 30px;
+        position: relative;
+        &:hover {
+            background-color: #DAE4ED;
+            &::after {
+                content: url('assets/icons/main/arrow.png');
+                position: absolute;
+                top: 30px;
+                transform: translateY(50%);
+                right: 32px;
+            }
+        }
+        p {
+            font-size: 16px;
+            font-weight: normal;
+        }
+        span {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2A5275;
+        }
+        &__four {
+            margin-bottom: 15px;
+        }
+        
+    }
+    .active {
+        background-color: #DAE4ED;
+        &::after {
+            content: url('assets/icons/main/arrow.png');
+            position: absolute;
+            top: 30px;
+            transform: translateY(50%);
+            right: 32px;
+        } 
+    }
+    &__line {
+        margin: 0 auto;
+        width: 360px;
+        height: 1px;
+        border-bottom: 1px solid #C8CACB;
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+    &__email {
+        position: relative;
+        font-size: 24px;
+        color: #2A5275;
+        margin-bottom: 30px;
+        margin-left: 30px;
+        margin-top: 20px;
+        text-decoration: none;
+        &::before {
+            content: url('assets/icons/contacts/mail.png');
+                position: absolute;
+                top: 20px;
+                transform: translateY(-50%);
+                left: -32px;
+        }
+    }
+    &__timeWork {
+        position: relative;
+        font-size: 16px;
+        color: #838688;
+        margin-top: 30px;
+        margin-left: 30px;
+        &::before {
+            content: url('assets/icons/contacts/clock.png');
+                position: absolute;
+                top: 16px;
+                transform: translateY(-50%);
+                left: -32px;
+        }
+    }
+    &__time {
+        color: #838688;
+        font-size: 20px;
+        margin-left: 30px;
+    }
+&__form {
+    width: 925px;
+    height: 405px;
+    margin-top: 30px;
+}
+&__formTitle {
+    font-size: 36px;
+    font-weight: bold;  
+    margin-bottom: 30px;  
+}
+&__nameInput {
+    width: 310px;
+    height: 48px;
+    border: solid .1px #838688;
+}
+&__name {
+    position: relative;
+    margin-bottom: 44px;
+}
+&__labelName {
+    position: absolute;
+    top: -26px;
+    left: 0;
+}
+&__phone {
+    position: relative;
+    margin-bottom: 20px;
+}
+&__phoneInput {
+    width: 310px;
+    height: 48px;
+    border: solid .1px #838688;
+}
+&__labelPhone {
+    position: absolute;
+    top: -26px;
+    left: 0;
+}
+&__right {
+    margin-left: 30px; 
+    position: relative;
+}
+&__formOneRow {
+    display: flex;
+}
+&__textInput {
+    width: 530px;
+    height: 140px;
+    resize: none;
+}
+&__labelText {
+    position: absolute;
+    top: -26px;
+    left: 0;
+    
+}
+&__buttonBlock {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 94px;
+}
+&__btn {
+    width: 310px;
+    height: 48px;
+    background-color: #4878A6;
+        font-size: 16px;
+        color: white;
+        font-weight: bold;
+        border: none;
+        margin-right: 20px;  
+    }
+    &__politicsBlock {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        width: 500px;
+        
+    }
+    &__potiticsLabel {
+        font-size: 16px;
+        font-weight: normal; 
+        
+        
+    }
+    &__potitics {
+        margin-right: 20px;
+        background-color: #4878A6;
+        width: 24px;
+        height: 24px;
+    }
+    &__cart {
+        border: 0.1px solid black;
+        margin-left: 20px;
+        border-radius: 10px;
+    }
+
+}
+
+.smallBlock {
+    width: 100%;
+    display: flex;
+}
+.bigBlock {
+    width: 100%;
+    display: flex;
+}
+

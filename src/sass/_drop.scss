@@ -1,0 +1,158 @@
+.drop {
+    &__wrapper {
+        width: 1336px;
+        margin: 0 auto;
+        padding-top: 41.5px;
+    }
+    &__titleLink {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        a {
+            text-decoration: none;
+            color: #111111;
+        }
+        .drop__mainTitle {
+            cursor: pointer;
+            margin-right: 15px;
+            &::after {
+                content: url('assets/icons/main/arrow.png');
+                position: relative;
+                top: 1px;
+                right: -5px;
+            }
+        }
+    }
+    &__title {
+        font-weight: bold;
+        font-size: 36px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        span {
+            color: #4878A6;
+            cursor: pointer;
+        }
+    }
+    &__descr {
+        max-width: 975px;
+        ul {
+            color: black;
+            font-weight: normal;
+        }
+        li {
+            color: black;
+            list-style:decimal;
+            margin-left: 30px;
+            font-weight: normal;
+
+        }
+        margin-bottom: 40px;
+    }
+    
+    &__formTitle {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    &__form {
+        width: 925px;
+        height: 300px;
+        margin-top: 30px;
+    }
+    &__formTitle {
+        font-size: 36px;
+        font-weight: bold;  
+        margin-bottom: 30px;  
+    }
+    &__nameInput {
+        width: 310px;
+        height: 48px;
+        border: solid .1px #838688;
+    }
+    &__name {
+        position: relative;
+        margin-bottom: 44px;
+    }
+    &__labelName {
+        position: absolute;
+        top: -26px;
+        left: 0;
+    }
+    &__phone {
+        position: relative;
+        margin-bottom: 20px;
+    }
+    &__phoneInput {
+        width: 310px;
+        height: 48px;
+        border: solid .1px #838688;
+    }
+    &__labelPhone {
+        position: absolute;
+        top: -26px;
+        left: 0;
+    }
+    &__right {
+        margin-left: 30px; 
+        position: relative;
+    }
+    &__formOneRow {
+        display: flex;
+    }
+    &__textInput {
+        width: 530px;
+        height: 140px;
+        resize: none;
+    }
+    &__labelText {
+        position: absolute;
+        top: -26px;
+        left: 0;
+        
+    }
+    &__buttonBlock {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 94px;
+    }
+    &__btn {
+        width: 310px;
+        height: 48px;
+        background-color: #4878A6;
+            font-size: 16px;
+            color: white;
+            font-weight: bold;
+            border: none;
+            margin-right: 20px;  
+        }
+        &__politicsBlock {
+            display: flex;
+            justify-content: start;
+            align-items: start;
+            width: 500px;
+            
+        }
+        &__potiticsLabel {
+            font-size: 16px;
+            font-weight: normal; 
+            
+            
+        }
+        &__potitics {
+            margin-right: 20px;
+            background-color: #4878A6;
+            width: 24px;
+            height: 24px;
+        }
+    &__right {
+        width: 100%;
+    }
+    &__description {
+        span {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    }
+}

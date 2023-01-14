@@ -1,0 +1,198 @@
+.vacancy {
+    &__wrapper {
+        width: 1336px;
+        margin: 0 auto;
+        padding-top: 41.5px;
+    }
+    &__titleLink {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        a {
+            text-decoration: none;
+            color: #111111;
+        }
+        .vacancy__mainTitle {
+            cursor: pointer;
+            margin-right: 15px;
+            &::after {
+                content: url('assets/icons/main/arrow.png');
+                position: relative;
+                top: 1px;
+                right: -5px;
+            }
+        }
+    }
+    &__title {
+        font-weight: bold;
+        font-size: 36px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        span {
+            color: #4878A6;
+            cursor: pointer;
+        }
+    }
+    &__block {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        margin-bottom: 80px;
+        min-height: 955px;
+    }
+    &__blockLeft {
+        width: 750px ;
+    }
+    &__blockRight {
+        width: 370px;
+    }
+    &__form {
+        margin-left: 130px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 0.1px solid #EAEAF0;
+        border-radius: 5px;
+    }
+    &__formTitle {
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    &__name {
+        position: relative;
+    }
+    &__nameInput {
+        width: 310px;
+        height: 48px;
+        margin-bottom: 30px;
+    }
+    &__labelName {
+        position: absolute;
+        top: -25px;
+        left: 0px;
+    }
+    &__surname {
+        position: relative;
+    }
+    &__surnameInput {
+        width: 310px;
+        height: 48px;
+        margin-bottom: 30px;
+    }
+    &__labelSurname {
+        position: absolute;
+        top: -25px;
+        left: 0px;
+    }
+    &__patronymic {
+        position: relative;
+    }
+    &__patronymicInput {
+        width: 310px;
+        height: 48px;
+        margin-bottom: 30px;
+    }
+    &__labelPatronymic {
+        position: absolute;
+        top: -25px;
+        left: 0px;
+    }
+    &__phone {
+        position: relative;
+    }
+    &__phoneInput {
+        width: 310px;
+        height: 48px;
+        margin-bottom: 30px;
+    }
+    &__labelPhone {
+        position: absolute;
+        top: -25px;
+        left: 0px;
+    }
+    &__file {
+        position: relative;
+    }
+    &__fileInput {
+        width: 310px;
+        height: 48px;
+        margin-bottom: 10px;
+        border: .1px solid black;
+        
+    }
+    &__labelFile {
+        position: absolute;
+        top: -25px;
+        left: 0px;
+        
+    }
+    &__textArea {
+        margin-top: 44px;
+        position: relative;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__textInput {
+        width: 310px;
+        height: 114px;
+        resize: none;
+    }
+    &__labelText {
+        font-size: 16px;
+        position: absolute;
+        top: -29px;
+        left: 0px;
+        font-weight: bold;
+    }
+    &__btn {
+        margin-top: 20px;
+        width: 310px;
+        height: 48px;
+        background-color: #4878A6;
+        color: white;
+        border-radius: 5px;
+    }
+    &__politicsBlock  {
+        display: flex;
+        margin-top: 10px;
+        align-items: center;
+        width: 310px;
+        margin-bottom: 20px;
+    }
+    &__potiticsLabel {
+        font-size: 13px;
+        font-weight: bold;
+        margin-left: 5px;
+
+    }
+    &__potitics {
+        width: 24px;
+        height: 24px;
+    }
+    &__line {
+        border: .01px solid gray;
+        width: 310px;
+        margin-bottom: 20px;
+    }
+    &__hr {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    &__phoneNumber {
+        font-size: 28px;
+        font-weight: bold;
+        color: #4878A6;
+        margin-bottom: 30px;
+        text-decoration: none;
+    }
+
+}
+.vacancy__form768 {
+    display: none;
+}

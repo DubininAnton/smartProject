@@ -1,0 +1,128 @@
+.installment {
+    &__wrapper {
+        width: 1336px;
+        margin: 0 auto;
+        padding-top: 41.5px;
+    }
+    &__titleLink {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        a {
+            text-decoration: none;
+            color: #111111;
+        }
+        .installment__mainTitle {
+            cursor: pointer;
+            margin-right: 15px;
+            &::after {
+                content: url('assets/icons/main/arrow.png');
+                position: relative;
+                top: 1px;
+                right: -5px;
+            }
+        }
+    }
+    &__title {
+        font-weight: bold;
+        font-size: 36px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        span {
+            color: #4878A6;
+            cursor: pointer;
+        }
+    }
+    &__bank {
+        margin-bottom: 20px;
+    }
+    &__work {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    &__descr {
+        margin-bottom: 15px;
+        span {
+            background-color: yellow;
+        }
+    }
+    &__table {
+        margin-bottom: 20px;
+    }
+    &__halva {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    &__formBlock {
+        display: flex;
+        height: 341px;
+        margin-bottom: 40px;
+           
+    }
+    &__form {
+        width: 370px;
+        background-color: #EDF2F6;
+        padding: 30px;
+    } 
+    &__formTitle {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    
+    &__name {
+        position: relative;
+        margin: 20px 0 40px 0;
+    }
+    &__nameInput {
+        width: 310px;
+    }
+    &__labelName {
+        position: absolute;
+        top: -25px;
+        left: 0;
+    }
+    &__phone {
+        position: relative;
+        margin-bottom: 40px;
+    }
+    &__labelPhone {
+        position: absolute;
+        top: -25px;
+        left: 0;
+    }
+    &__phoneInput {
+        width: 310px;
+    }
+    &__text {
+        padding: 40px 0 20px 57px;
+        font-size: 24px;
+        font-weight: bold;
+        ul {
+            color: black;
+            font-weight: normal;
+        }
+        li {
+            color: black;
+            list-style: circle;
+            margin-left: 30px;
+            font-weight: normal;
+        }
+
+    }
+    &__btn {
+        background-color: #2A5275;
+        width: 310px;
+        height: 48px;
+        color: white;
+    }
+    .installment__text {
+        padding: 0px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    
+    
+}

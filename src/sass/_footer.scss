@@ -1,0 +1,196 @@
+.footer {
+    background-color: #EDF2F6;
+    max-width: 1920px;
+    height: 418px;
+    &__wrapper {
+        max-width: 1336px;
+        height: 100%;
+        margin: 0 auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    .footer__topBlock {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        margin-bottom: 40px;
+    }
+    .footer__columnOne {
+        display: flex;
+        flex-direction: column;
+        img {
+            margin-bottom: 20px;
+        }
+        a {
+            margin-bottom: 10px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+    }
+    .footer__adress {
+        margin-top: 5px;
+        font-weight: bold;
+        font-size: 16px;
+        width: 231px;
+        line-height: 1.5;
+    }
+    .footer__columnTwo {
+        margin-right: 81px;
+        width: 244px;
+        .footer__client {
+            font-weight: bold;
+            font-size: 20px;
+            color: #838688;
+            margin-bottom: 20px;
+            cursor: text;
+        }
+        div {
+            margin-bottom: 5px;
+            font-weight: normal;
+            font-size: 16px;
+            color: #070C11;
+            cursor: pointer;
+        }
+    }
+    .footer__columnThree {
+        width: 192px;
+        margin-right: 133px;
+        .footer__store {
+            font-weight: bold;
+            font-size: 20px;
+            color: #838688;
+            margin-bottom: 20px;
+            cursor: text;
+        }
+        div {
+            margin-bottom: 5px;
+            font-weight: normal;
+            font-size: 16px;
+            color: #070C11;
+            cursor: pointer;
+        }
+    }
+    .footer__columnFour {
+        .footer__cooperationTitle {
+            font-weight: bold;
+            font-size: 20px;
+            color: #838688;
+            margin-bottom: 20px;
+            cursor: text;
+        }
+        div {
+            margin-bottom: 5px;
+            font-weight: normal;
+            font-size: 16px;
+            color: #070C11;
+            cursor: pointer;
+        }
+    }
+    .footer__bottomBlock .footer__socialNetworks_small {
+        display: none;
+    }
+    }
+    &__bottomBlock {
+        border-top: .2px solid #C8CACB;
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .footer__socialNetworks {
+            display: flex;
+            img {
+                cursor: pointer;
+            }
+            .footer__vkBlock {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 48px;
+                height: 48px;
+                cursor: pointer;
+            }
+            .footer__instaBlock {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 48px;
+                height: 48px;
+                cursor: pointer;
+            }
+        }
+        .footer__produce {
+            width: 325px;
+            text-align: right;
+            margin-left: 0px;
+        }
+    }
+    &__opt {
+        a {
+            font-weight: normal;
+            font-size: 16px;
+            color: #070C11;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    }
+    &__dropshipping {
+        a {
+            font-weight: normal;
+            font-size: 16px;
+            color: #070C11;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    }
+    &__vacancy {
+        a {
+            text-decoration: none;
+            font-size: 16px;
+            color: #070C11;
+        }
+    }
+}
+.footer__medium {
+    display: none;
+    .footer__store {
+        margin-top: 60px;
+        font-weight: bold;
+        font-size: 20px;
+        color: #838688;
+        margin-bottom: 20px;
+        cursor: text;
+    }
+    div {
+        margin-bottom: 5px;
+        font-weight: normal;
+        font-size: 16px;
+        color: #070C11;
+        cursor: pointer;
+    }
+    
+}
+.footer__columnTwo {
+    .footer__medium {
+        .footer__cooperationTitle {
+            font-weight: bold;
+            font-size: 20px;
+            color: #838688;
+            margin-bottom: 20px;
+            cursor: text;
+            margin-top: 100px;
+        }
+        div {
+            margin-bottom: 5px;
+            font-weight: normal;
+            font-size: 16px;
+            color: #070C11;
+            cursor: pointer;
+        }
+    }
+}
+
+.footer__small {
+    display: none;
+}
+.footer__socialNetworks_small {
+    display: none;
+}

@@ -1,0 +1,397 @@
+.catalogMain {
+    &__wrapper {
+        width: 1336px;
+        min-height: 1000px;
+        margin: 0 auto;
+        padding-top: 41.5px;
+    }
+    &__titleLink {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        a {
+            text-decoration: none;
+            color: #111111;
+        }
+        .catalogMain__mainTitle {
+            cursor: pointer;
+            margin-right: 15px;
+            &::after {
+                content: url('assets/icons/main/arrow.png');
+                position: relative;
+                top: 1px;
+                right: -5px;
+            }
+        }
+        .catalogMain__catalog {
+            cursor: pointer;
+            margin-right: 15px;
+            &::after {
+                content: url('assets/icons/main/arrow.png');
+                position: relative;
+                top: 1px;
+                right: -5px;
+            }
+        }
+    }
+    
+    &__title {
+        font-weight: bold;
+        font-size: 36px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        span {
+            color: #4878A6;
+            cursor: pointer;
+        }
+    }
+    .catalogBlock {
+        display: grid;
+        width: 1336px;
+        gap: 10px;
+        grid-template-areas: 
+        "A B C"
+        "A D D"
+        ;
+        &__a {
+            grid-area: A;
+            width: 310px;
+            &_rowOne {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .accordion-body {
+                padding-left: 0;
+                padding-right: 0;
+            }
+            .catalogBlock__lowPriceLabel {
+                grid-area: A;
+                width: 17px;
+            }
+            .catalogBlock__lowPrice {
+                grid-area: B;
+                width: 117px;
+                height: 48px;
+            }
+            .catalogBlock__hightPriceLabel {
+                grid-area: C;
+                width: 17px;
+            }
+            .catalogBlock__hightPrice {
+                grid-area: D;
+                width: 117px;
+                height: 48px;
+            }
+            .catalogBlock__rangePrice {
+                grid-area: E;
+                width: 100%;
+                height: 50px;
+            }
+            .catalogBlock__buttonPrice {
+                width: 100%;
+                height: 48px;
+                grid-area: J;
+                width: 100%;
+                top: 100px;
+                border-radius: 7px;
+                border: none;
+                background-color: #4878A6;
+                color: white;
+            }
+            .accordion-item {
+                border: none;
+            }
+            .catalogBlock__illumination {
+                display: flex;
+                flex-direction: column;
+            }
+            .catalogBlock__illuninationTrue {
+                color: black;
+            }
+            .catalogBlock__illuminationRowOne {
+                display: flex;
+            }
+            .catalogBlock__illuninationTrueLabel {
+                margin-left: 15px;
+            }
+            .catalogBlock__illuninationFalseLabel {
+                margin-left: 15px;
+            }
+            .catalogBlock__powerEngineElementLabel {
+                margin-left: 15px;
+                
+            }
+            .catalogBlock__powerEngineRowOne {
+                span {
+                    margin-left: 15px;
+                    color: #838688;
+                }
+            }
+            .catalogBlock__maxSpeedElementLabel {
+                margin-left: 15px;
+            }
+            .catalogBlock__maxSpeedRowOne {
+                span {
+                    margin-left: 15px;
+                    color: #838688;
+                }
+            }
+            .catalogBlockA__btn {
+                display: none;
+                position: relative;
+                width: 167px;
+                height: 48px;
+                border-radius: 5px;
+                color: white;
+                background-color: #4878A6;
+                &:hover {
+                    cursor: pointer;
+                }
+                &:after {
+                    content: url('assets/icons/catalog/fiter.svg');
+                    position: absolute;
+                    width: 24px;
+                    height: 24px;
+                    top: 0px;
+                    left: 0px;
+
+                }
+            }
+        }
+        &__b {
+            grid-area: B;
+            width: 650px;
+            height: 48px;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            overflow-block: auto;
+            .catalogBlock__filterIllumination {
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                background-color: #dee2e2;
+                border-radius: 15px;
+                padding: 0 10px 0 10px;
+                position: relative;
+                margin: 0 5px 0 5px;
+            }
+            .catalogBlock__filterIlluminationCross {
+                background-image: url('./assets/icons/catalog/x.png');
+                width: 10px;
+                height: 14px;
+                margin-left: 5px;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+            .catalogBlock__filterPrice {
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                background-color: #dee2e2;
+                border-radius: 15px;
+                padding: 0 10px 0 10px;
+                position: relative;
+                margin: 0 5px 0 5px;
+
+            }
+            .catalogBlock__filterPriceCross {
+                background-image: url('./assets/icons/catalog/x.png');
+                width: 10px;
+                height: 14px;
+                margin-left: 5px;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+            .catalogBlock__filterPower {
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                background-color: #dee2e2;
+                border-radius: 15px;
+                padding: 0 10px 0 10px;
+                position: relative;
+                margin: 0 5px 0 5px;
+
+            }
+            .catalogBlock__filterPowerCross {
+                background-image: url('./assets/icons/catalog/x.png');
+                width: 10px;
+                height: 14px;
+                margin-left: 5px;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+            .catalogBlock__filterSpeed {
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                background-color: #dee2e2;
+                border-radius: 15px;
+                padding: 0 10px 0 10px;
+                position: relative;
+                margin: 0 5px 0 5px;
+
+            }
+            .catalogBlock__filterSpeedCross {
+                background-image: url('./assets/icons/catalog/x.png');
+                width: 10px;
+                height: 14px;
+                margin-left: 5px;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+            .catalogBlock__eraseAllFilter {
+                color: #F15152;
+                text-decoration: underline;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+
+        }
+        &__c {
+            grid-area: C;
+            width: 310px;
+            height: 48px;
+            justify-content: end;
+            display: flex;
+            margin-right: 12px;
+            .btn {
+                border-color: #EAEAF0;
+            }
+            .btn.dropdown-toggle {
+                width: 240px;
+                height: 48px;
+            }
+            .dropdown {
+                width: 240px;
+                height: 48px; 
+            }
+            .dropdown-menu.show {
+                width: 100%;
+            }
+            .dropdown-item {
+                cursor: pointer;
+            }
+        }
+        &__d {
+            grid-area: D;
+            width: 100%;
+            display: grid;
+            margin-bottom: 80px;
+            grid-template-columns: repeat(3, 326px);
+            grid-template-rows: 596px;
+
+            .bestsalesCard {
+                &__item {
+                    position: relative;
+                    border: solid gray .1px;
+                    padding: 10px 20px 20px 20px;
+                    display: flex;
+                    flex-direction: column;
+                    .blockinfo {
+                        padding: 10px 20px 0 0;
+                        position: absolute;
+                        display: flex;
+                        flex-direction: column;
+                        top: 0px;
+                        right: 0px;
+                        align-items: end;
+                        &__newitem {
+                            width: 98px;
+                            height: 31px;
+                            margin-bottom: 10px;
+                        }
+    
+                    }
+                    &__img {
+                        margin-bottom: 10px;
+                    } 
+                }
+                &__titile {
+                    font-weight: normal;
+                    font-size: 16px;
+                    margin-bottom: 10px;
+                }
+                &__descr {
+                    font-size: 20px;
+                    font-weight: normal;
+                    margin-bottom: 20px;
+                }
+                &__star {
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    margin-bottom: 20px;
+                    .notice {
+                        margin-left: 13px;
+                        cursor: pointer;
+                        margin-right: 8px;
+                    }
+                }
+                &__price {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: end;
+                    margin-bottom: 20px;
+                    .price {
+                        width: 117px;
+                        height: 81px;
+                        display: flex;
+                        flex-direction: column;
+                        &__old {
+                            font-weight: normal;
+                            font-size: 16px;
+                            color: gray;
+                            text-decoration: line-through;
+                        }
+                        &__new {
+                            font-weight: bold;
+                            font-size: 24px;
+                        }
+                    }
+                }
+                &__btn {
+                    display: flex;
+                    justify-content: space-between;
+                    .oneClick {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 228px;
+                        height: 48px;
+                        border: solid #4878A6 .3px;
+                        border-radius: 2px;
+                        cursor: pointer;
+                    }
+                    .cart {
+                        cursor: pointer;
+                    }
+                }
+    
+            }
+        }
+        &__lowPrice {
+            width: 117px;
+            height: 48px;
+        }
+        &__form {
+            display: grid;
+            width: 100%;
+            grid-template-areas: 
+            "A B C D"
+            "E E E E" 
+            "J J J J"
+        ;
+            // justify-content: space-between;
+            // align-items: center;
+            // position: relative;
+        }
+    }
+}
